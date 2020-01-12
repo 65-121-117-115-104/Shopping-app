@@ -1,0 +1,60 @@
+.auth-form-title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-text-input {
+  width: 300px;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 10px 5px;
+}
+
+.form input, .form select {
+  margin: 10px 0;
+  border: solid 1px #adb3a8;
+  border-radius: 4px;
+}
+
+.add-to-cart-btn,
+.auth-form-btn,
+.form input[type="submit"] {
+  font-size: 16px;
+  width: 100%;
+  text-decoration: none;
+  border: 1px solid #e1e3df;
+  background: #eb732e;
+  padding: 10px 40px;
+  border-radius: 4px;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 10px;
+  transition-property: background; 
+  transition-duration: 0.4s;
+}
+
+.add-to-cart-btn:hover,
+.auth-form-btn:hover,
+.form input[type="submit"]:hover {
+  cursor: pointer;
+  background: #b85a24;
+}
+
+.nav-link-list {
+  display: flex;
+  margin: 5px 0;
+}
+
+.nav-link-list a {
+  color: #0b4ff7;
+  margin-left: 10px;
+}
+
+.errors {
+  color: red;
+}

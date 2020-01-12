@@ -1,0 +1,46 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  margin: auto;
+  background: url("https://res.cloudinary.com/brainzilla/image/upload/v1518624115/AWshop-hero-image_y4aizq.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+}
+
+.banner-btn {
+  text-align: center;
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  color: #000;
+  border: 4px solid #000;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  transform: translate(-50%, -20%);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.banner-btn:hover {
+  cursor: pointer;
+}
+
+  @media only screen and (max-width: 480px) {
+    .banner {
+      background-attachment: scroll;
+    }
+
+    .banner-btn {
+      font-size: 18px;
+      padding: 10px;
+      border: 2px solid #000;
+    }
+  }

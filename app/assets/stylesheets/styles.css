@@ -1,0 +1,45 @@
+body {
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  /* min-width: 320px; */
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+.main-content {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  padding: 0;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.homepage-header {
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
